@@ -4,9 +4,9 @@ Repository for the programs that will be developed during the Nautilus selective
 Esse arquivo foi criado no intuito concentrar em um único arquivo, as explicações dos programas utilizando Python Básico
 (Obs: Todos os códigos foram comentados e as explicações aqui presentes foram retiradas deles)
 
-1- Faça um programa que diga se o primeiro e o último ítens de uma
+**1- Faça um programa que diga se o primeiro e o último ítens de uma
 lista são iguais(deve funcionar para qualquer lista, ou seja, a
-quantidade de ítens não é fixa)
+quantidade de ítens não é fixa)** <h3>
 
 EXPLICAÇÃO:
 O funcionamento desse programa é bem simples, o programa lê a lista
@@ -15,6 +15,7 @@ função checa_lista(lista) e compara o primeiro elemento da lista com
 o último.
 
 Exemplos:
+
     Entrada: 1,2,3,4,5,6,7,1
     Saída: O primeiro item e o último são iguais
 
@@ -26,7 +27,8 @@ Exemplos:
 
 
 
-#2- Faça um programa que diga o maior divisor primo de um número dado como input
+**2- Faça um programa que diga o maior divisor primo de um número dado como input** <h3>
+
 EXPLICAÇÃO:
 Para esse programa, busquei aumentar a eficiência no processamento
 e, para isso, fiz uma função que cria uma lista com os números primos
@@ -35,6 +37,7 @@ maior_divisor_primo, ocorre a busca pelo maior divisor primo do número
 fornecido pelo usuário.
 
 Exemplos:
+
     Entrada: 25
     Saída: 5
 
@@ -49,7 +52,8 @@ Exemplos:
 
 
 
-#3- Diga se um número qualquer é um palíndromo
+**3- Diga se um número qualquer é um palíndromo** <h3>
+
 EXPLICAÇÃO:
 Nesse programa, bastou-se criar uma função checa_palindromo e, dentro
 dela, fazer uso de manipulação de strings para checar o número dado.
@@ -57,6 +61,7 @@ Uma breve observação é que a entrada não foi lida como um número int
 ou float, para facilitar a manipulação.
 
 Exemplos:
+
     Entrada: 999
     Saída: O número digitado é um palíndromo
 
@@ -74,7 +79,8 @@ Exemplos:
 
 
 
-#4- Dê a soma de todos os números primos menores que 1000
+**4- Dê a soma de todos os números primos menores que 1000** <h3>
+
 EXPLICAÇÃO:
 Para esse programa, busquei aumentar a eficiência no processamento
 e, para isso, fiz uma função que cria uma lista com os números primos
@@ -84,8 +90,8 @@ de confirmar o resultado, ocorre uma checagem do valor apresentado
 usando a função sum(lista). 
 
 Exemplo:
+
     Saída:
-    
     Realizando o somatório usando a função soma_dos_primos:
     76127
 
