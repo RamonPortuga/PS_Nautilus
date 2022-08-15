@@ -1,12 +1,9 @@
-# PS_Nautilus
-Repository for the programs that will be developed during the Nautilus selective project, belonging to the Federal University of Rio de Janeiro (UFRJ)
+# Exercícios de Python Básico - PS Nautilus
 
 Esse arquivo foi criado no intuito concentrar em um único arquivo, as explicações dos programas utilizando Python Básico
 (Obs: Todos os códigos foram comentados e as explicações aqui presentes foram retiradas deles)
 
-**1- Faça um programa que diga se o primeiro e o último ítens de uma
-lista são iguais(deve funcionar para qualquer lista, ou seja, a
-quantidade de ítens não é fixa)** <h3>
+### 1- Faça um programa que diga se o primeiro e o último ítens de uma lista são iguais(deve funcionar para qualquer lista, ou seja, a quantidade de ítens não é fixa)
 
 EXPLICAÇÃO:
 O funcionamento desse programa é bem simples, o programa lê a lista
@@ -27,7 +24,7 @@ Exemplos:
 
 
 
-**2- Faça um programa que diga o maior divisor primo de um número dado como input** <h3>
+### 2- Faça um programa que diga o maior divisor primo de um número dado como input
 
 EXPLICAÇÃO:
 Para esse programa, busquei aumentar a eficiência no processamento
@@ -52,7 +49,7 @@ Exemplos:
 
 
 
-**3- Diga se um número qualquer é um palíndromo** <h3>
+### 3- Diga se um número qualquer é um palíndromo
 
 EXPLICAÇÃO:
 Nesse programa, bastou-se criar uma função checa_palindromo e, dentro
@@ -79,7 +76,7 @@ Exemplos:
 
 
 
-**4- Dê a soma de todos os números primos menores que 1000** <h3>
+### 4- Dê a soma de todos os números primos menores que 1000
 
 EXPLICAÇÃO:
 Para esse programa, busquei aumentar a eficiência no processamento
