@@ -29,3 +29,22 @@ print("Realizando o somatório usando a função soma_dos_primos:")
 print(soma_dos_primos(primos))
 print("\nFazendo a prova real usando a função sum(lista):")
 print(sum(primos))
+
+"""
+EXPLICAÇÃO:
+Para esse programa, busquei aumentar a eficiência no processamento
+e, para isso, fiz uma função que cria uma lista com os números primos
+com base no crivo de eratóstenes. Depois disso, utilizando a função
+soma_dos_primos, ocorre o somatório dos números primos. Como forma
+de confirmar o resultado, ocorre uma checagem do valor apresentado
+usando a função sum(lista). 
+
+Exemplo:
+    Saída:
+    
+    Realizando o somatório usando a função soma_dos_primos:
+    76127
+
+    Fazendo a prova real usando a função sum(lista):
+    76127
+"""
