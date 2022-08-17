@@ -66,3 +66,25 @@ print("\n\nRankeamento do mais novo ao mais velho:")
 rankearPorIdade(listaDeAUV)
 print("\n\nRankeamento do mais rápido ao mais lento:")
 rankearPorVelocidade(listaDeAUV)
+
+
+"""
+EXPLICAÇÃO:
+Criei a classe AUV e fiz sua respectiva instanciação quatro vezes.
+
+Feito isso, peguei os objetos criados e armazenei em uma lista. Assim,
+dei início ao chamamento das funções criadas.
+
+A função exibeEmTabela() foi bem simples de ser desenvolvida, bastou
+criar um laço for e printar com as devidas formatações.
+Para exibir individualmente, foi basicamente a mesma lógica, porém com
+a diferença que retirei as vírgulas e colchetes da lista que armazenava
+os sensores de cada AUV.
+
+Agora, para o rankeamento por idade, pensei em usar o método __gt__, mas
+acabei optando por usar o método sort por achar mais simples. Para evitar
+repetição de código,
+
+Sobre a função livre, fiz a rankearPorVelocidade, e usei a mesma lógica da
+função anterior.
+"""
