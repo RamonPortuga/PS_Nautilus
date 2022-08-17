@@ -21,12 +21,6 @@ class AUV():
         self.nomeVeiculo = nomeVeiculo
         self.velMaxima = velMaxima
 
-    def __gt__(self, AUV2):
-        return (self.anoDeConstrucao > AUV2.anoDeConstrucao)
-
-    def getAnoDeConstrucao(auv):
-        return auv.anoDeConstrucao
-
 def exibeEmTabela(listaDeAUV):
     print(" Nome \tNúmero de Thrsters\t\t\t\tLista de Sensores\t\t\t\t   Ano de Construção \t   Velocidade Máxima")
     for i in range(0, len(listaDeAUV)):
