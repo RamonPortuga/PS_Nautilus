@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /root/Nautilus/ProcessoSeletivo/ROS/catkin_ws3/install/setup.sh

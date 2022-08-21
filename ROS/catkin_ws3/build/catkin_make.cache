@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/root/Nautilus/ProcessoSeletivo/ROS/catkin_ws3/devel -DCMAKE_INSTALL_PREFIX=/root/Nautilus/ProcessoSeletivo/ROS/catkin_ws3/install -G Unix Makefiles
