@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/root/ProcessoSeletivo/ROSAvançado/SistemaSolar/devel -DCMAKE_INSTALL_PREFIX=/root/ProcessoSeletivo/ROSAvançado/SistemaSolar/install -G Unix Makefiles

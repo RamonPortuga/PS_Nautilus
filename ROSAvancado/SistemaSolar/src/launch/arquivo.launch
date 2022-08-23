@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+
+    <rosparam command="load" file="$(find SolarSystem)/param/planet.yaml"/>
+    <node pkg="SolarSystem" name="sistemasolar" type="star.py"/>
+
+</launch>

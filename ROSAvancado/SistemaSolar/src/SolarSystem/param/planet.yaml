@@ -1,0 +1,14 @@
+planet_info: [
+        {
+          "radius": 5,
+          "name": Earth,
+          "father": Sun,
+          "speed": 4,
+        },
+        {
+          "radius": 2,
+          "name": Moon,
+          "father": Earth,
+          "speed": 2,
+        }
+]
